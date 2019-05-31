@@ -1,5 +1,5 @@
-# Eolium_EWI_MIDIUSB
-Eolium is an Open Source Electronic Wind MIDI USB Instrument I wanted to provide to let more people have fun making computer assisted music.
+# Eaonium_EWI_MIDIUSB
+Eaonium is an Open Source Electronic Wind MIDI USB Instrument I wanted to provide to let more people have fun making computer assisted music.
 
 The hardware is centered on a Arduino board and the case can be 3D printed.
 

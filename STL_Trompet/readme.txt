@@ -1,7 +1,7 @@
 Readme
 ------
 
-EWI Eolium USB MIDI - Trompet Design
+EWI Eaonium USB MIDI - Trompet Design
 Version 1.0.6
 
 Gregory CHAPITEAU

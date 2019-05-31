@@ -1,5 +1,5 @@
 /*********************************************************
- * Eolium Firmware 2.0.6 USB capacitive touch
+ * Eaonium Firmware 2.0.6 USB capacitive touch
  * Author: Grégory CHAPITEAU
  * Website : http://eaonsynergy.fr/
  */
