@@ -5,6 +5,8 @@ The hardware is centered on a Arduino board and the case can be 3D printed.
 
 The software part uses MIDI USB Lib, so the Arduino board must be atmega32u4 ARM based.
 
+Photos, videos and blog here http://eaonsynergy.fr/category/maker/ewi-eaonium/
+
 # Case designs
 I created two designs
    1) Trompet like design : provides 10 buttons, this design was my first one with the idea to have something looking cool. I still need to improve the ergonomy but I really love the feeling playing it.
