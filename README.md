@@ -7,6 +7,10 @@ The software part uses MIDI USB Lib, so the Arduino board must be atmega32u4 ARM
 
 Photos, videos and blog here http://eaonsynergy.fr/category/maker/ewi-eaonium/
 
+The repo is not yet perfect, so I think you will need some Arduino, 3D printing and handcraft skills to go through it. The documentation is still really minimalist, and I have to draw the wiring plans.
+
+I swear to do my best to improve the documentation, providing some wiring plans, components list, etc.
+
 # Case designs
 I created two designs
    1) Trompet like design : provides 10 buttons, this design was my first one with the idea to have something looking cool. I still need to improve the ergonomy but I really love the feeling playing it.
