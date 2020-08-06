@@ -3,9 +3,7 @@ Eaonium is an Open Source Electronic Wind MIDI USB Instrument I wanted to provid
 
 The hardware is centered on a Arduino board and the case can be 3D printed.
 
-The software part uses MIDI USB Lib, so the Arduino board must be atmega32u4 ARM based.
-
-Photos, videos and blog here http://eaonsynergy.fr/category/maker/ewi-eaonium/
+The software uses MIDI USB Lib, so the Arduino board must be atmega32u4 ARM based.
 
 The repo is not yet perfect, so I think you will need some Arduino, 3D printing and handcraft skills to go through it. The documentation is still really minimalist, and I have to draw the wiring plans.
 
