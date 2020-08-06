@@ -1,5 +1,5 @@
 /*********************************************************
- * Eaonium Firmware 2.0.6 USB capacitive touch
+ * Eaonium Firmware 2.0.7 USB capacitive touch
  * Author: Grégory CHAPITEAU
  * Website : http://eaonsynergy.fr/
  */
@@ -174,73 +174,7 @@ void getPressedPads(){
   return;
   }
 
-//Convert note buttons combination into MIDI pitch value
-int getMidiPitch(){
 
-  
-switch(pressedButtons){
-case 0: pitch = 69; break;
-case 1: pitch = 67; break;
-case 3: pitch = 65; break;
-case 7: pitch = 64; break;
-case 15: pitch = 62; break;
-case 31: pitch = 60; break;
-case 63: pitch = 59; break;
-case 256: pitch = 57; break;
-case 257: pitch = 55; break;
-case 259: pitch = 53; break;
-case 263: pitch = 52; break;
-case 271: pitch = 50; break;
-case 287: pitch = 48; break;
-case 319: pitch = 47; break;
-case 512: pitch = 45; break;
-case 513: pitch = 43; break;
-case 515: pitch = 41; break;
-case 519: pitch = 40; break;
-case 527: pitch = 38; break;
-case 543: pitch = 36; break;
-case 575: pitch = 35; break;
-case 768: pitch = 33; break;
-case 769: pitch = 31; break;
-case 771: pitch = 29; break;
-case 775: pitch = 28; break;
-case 783: pitch = 26; break;
-case 799: pitch = 24; break;
-case 831: pitch = 23; break;
-case 64: pitch = 68; break;
-case 65: pitch = 66; break;
-case 67: pitch = 65; break;
-case 71: pitch = 63; break;
-case 79: pitch = 61; break;
-case 95: pitch = 60; break;
-case 127: pitch = 58; break;
-case 320: pitch = 56; break;
-case 321: pitch = 54; break;
-case 323: pitch = 53; break;
-case 327: pitch = 51; break;
-case 335: pitch = 49; break;
-case 351: pitch = 48; break;
-case 383: pitch = 46; break;
-case 576: pitch = 44; break;
-case 577: pitch = 42; break;
-case 579: pitch = 41; break;
-case 583: pitch = 39; break;
-case 591: pitch = 37; break;
-case 607: pitch = 36; break;
-case 639: pitch = 34; break;
-case 832: pitch = 32; break;
-case 833: pitch = 30; break;
-case 835: pitch = 29; break;
-case 839: pitch = 27; break;
-case 847: pitch = 25; break;
-case 863: pitch = 24; break;
-case 895: pitch = 22; break;
-  
-  default: pitch = oldPitch; break;
-  }
-
-  return pitch;
-  }
 
 void loop() {
   pressureSensorValue = analogRead(pressureSensorPin);
@@ -315,3 +249,12 @@ void loop() {
     }
           
 }
+
+//Convert note buttons combination into MIDI pitch value
+int getMidiPitch(){
+  
+  // HERE PASTE YOUR MAP CODE //
+  // Code Generator available on  http://eaonsynergy.fr/eaonium-map-generator/
+
+  return pitch;
+  }
