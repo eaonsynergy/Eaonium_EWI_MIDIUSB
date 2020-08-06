@@ -22,12 +22,5 @@ Two models are available :
    2) With Capative buttons thanks to an Adafruit MPR121 12-channel Capacitive touch sensor
 
 # Notes Mapping
-Because it is electronic, and yet better, you can customize the note to button mapping. Personnaly, I like to make it simple, so mapping provided by default is
-1 button = 1 note (A,B,C,D,E,F,G)
-1 button = Alt bemol (hold button playing A + button Alt plays Ab)
-2 buttons two switch between octaves
-
-However, I provided an xlsx files to generate the arduino code for custom mapping.
-XLSX Left side : Select the pressed buttons
-XLSX Center zone : Select the note to play for the combination
-XLSX Right zone : Get the Arduino Switch code
+Because it is electronic, and yet better, you can customize the note to button mapping.
+Find here a online map code generator to easily create your own key mapping : http://eaonsynergy.fr/eaonium-map-generator/
