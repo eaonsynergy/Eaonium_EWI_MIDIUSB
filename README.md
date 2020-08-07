@@ -16,7 +16,7 @@ I created two designs
 
 # Mecanical or Capacitive Touch
 Two models are available :
-   1) With mecanical buttons
+   1) With mecanical buttons (cf. folder "old")
    2) With Capative buttons thanks to an Adafruit MPR121 12-channel Capacitive touch sensor
 
 # Notes Mapping
